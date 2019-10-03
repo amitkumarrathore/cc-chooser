@@ -59,7 +59,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       title: "DEV - Choose a License"
     }),
     // copy custom static assets
-    new CopyWebpackPlugin([
+    new CopyWebpackPlugin([export
       {
         from: path.resolve(__dirname, '../static'),
         to: config.dev.assetsSubDirectory,
